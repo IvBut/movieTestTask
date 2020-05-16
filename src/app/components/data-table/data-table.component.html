@@ -1,0 +1,81 @@
+<div *ngIf="dataList.length > 0" class="component-wrapper">
+  <div class="settings-wrapper">
+    <div>
+      <label class="switch"><input type="checkbox" id="togBtn" (click)="changeView()" [checked]="isPagination"><div class="slider round"></div></label>
+    </div>
+
+    <i class="fa fa-times reset" (click)="resetFilters()" title="Reset Filters"></i>
+  </div>
+  <div class="filter-wrapper">
+    <div class="filter-element">
+      <input name="name" type="text"  [(ngModel)]="inpName" (change)="filterNames()" placeholder="Name..." >
+      <i class="fa fa-search search-icon"></i>
+    </div>
+    <app-custom-select *ngIf="genres.size > 0"
+                       [placeholder]="genrePlaceholder"
+                       [options]="genresOptions"
+                       (change)="filterGenres($event)"
+                       class="filter-element">
+    </app-custom-select>
+    <app-custom-select *ngIf="premieres.size > 0"
+                       [placeholder]="premierePlaceholder"
+                       [options]="premieresOptions"
+                       (change)="filterPremieres($event)"
+                       class="filter-element">
+
+    </app-custom-select>
+  </div>
+
+  <table >
+    <thead>
+    <tr>
+      <th *ngFor="let header of headers">
+       <div class="header-wrapper">
+         <div>
+           {{header.name}}
+         </div>
+         <div class="arrows-wrapper">
+           <i class="fa fa-chevron-up"
+              (click)="sort(header.name,'DESC')"
+              [class.active-direction]="header.name === sortingHeader && sortingDirection ==='DESC'">
+           </i>
+           <i class="fa fa-chevron-down"
+              (click)="sort(header.name,'ASC')"
+              [class.active-direction]="header.name === sortingHeader && sortingDirection ==='ASC'">
+           </i>
+         </div>
+       </div>
+      </th>
+    </tr>
+    </thead>
+    <tbody *ngIf="headers.length > 0">
+    <tr  *ngFor="let item of dataList;" >
+      <td   [attr.data-label]="headers[0].name">
+        <p>{{item.name}}</p>
+        <div class="pill-wrapper">
+          <span  *ngFor="let pill of item.genre"
+                class="pill"
+                [style.background-color]="genres.get(pill)">
+            {{pill}}
+          </span>
+        </div>
+      </td>
+      <td [attr.data-label]="headers[1].name">{{item.season}}</td>
+      <td [attr.data-label]="headers[2].name">{{item.network}}</td>
+      <td [attr.data-label]="headers[3].name">{{item.date}}</td>
+    </tr>
+    </tbody>
+
+  </table>
+  <div class="bottom-wrapper" *ngIf="isPagination">
+    <app-paginator
+      (onPaginate)="handlePaginate($event)"
+      [dataItems]="bufferData">
+    </app-paginator>
+  </div>
+
+</div>
+<ng-template #loading>
+  <p>Loading...</p>
+</ng-template>
+

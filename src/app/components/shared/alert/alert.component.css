@@ -1,0 +1,22 @@
+.alert-wrapper{
+  position: absolute;
+  max-width: 200px;
+  top: 2%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.alert {
+  color: var(--mainWhite);
+  font-weight: bold;
+  font-size: 14px;
+  padding: 1.5rem;
+}
+
+.alert-success {
+  background: green;
+}
+
+.alert-unsuccess {
+  background: crimson;
+}

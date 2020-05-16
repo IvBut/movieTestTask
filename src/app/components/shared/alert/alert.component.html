@@ -1,0 +1,8 @@
+<div class="alert-wrapper" *ngIf="message">
+  <div class="alert" [ngClass]="{
+  'alert-success': type === 'successful',
+  'alert-unsuccess': type === 'unsuccessful'
+  }">
+    <p>{{message}}</p>
+  </div>
+</div>

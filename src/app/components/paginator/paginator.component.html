@@ -1,0 +1,17 @@
+<div class="paginator-wrapper">
+  <div class="navigation-wrapper">
+    <i class="fa fa-chevron-left" (click)="previousPage()"></i>
+    <a *ngFor="let page of pagesList; let i = index"
+       [class.active]="i==currentPage-1" (click)="onPageClick(i+1)">
+      {{page}}
+    </a>
+    <i class="fa fa-chevron-right" (click)="nextPage()"></i>
+  </div>
+  <div class="records-wrapper">
+    <a *ngFor="let recordsCount of recordsPerPage; let i = index;"
+       [class.active]="recordsPerPage[i] == currentRecordsCount"
+       (click)="handleChangeRecords($event, i)">
+      {{recordsCount}}
+    </a>
+  </div>
+</div>
