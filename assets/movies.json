@@ -1,0 +1,256 @@
+{
+  "movies": [
+    {
+      "name": "The Terror",
+      "season": 3,
+      "network": [
+        "AMC"
+      ],
+      "date": "20.10.2019",
+      "genre": ["horror","drama"]
+    },
+    {
+      "name": "Better Call Saul",
+      "season": 4,
+      "network": [
+        "Netflix", "AMC"
+      ],
+      "date": "05.11.2019",
+      "genre": ["crime","tragedy"]
+    },
+    {
+      "name": "Preacher",
+      "season": 5,
+      "network": [
+        "AMC"
+      ],
+      "date": "01.01.2019",
+      "genre": ["drama","dark comedy"]
+    },
+    {
+      "name": "The Terror",
+      "season": 2,
+      "network": [
+        "AMC"
+      ],
+      "date": "10.01.2018",
+      "genre": ["horror","drama"]
+    },
+    {
+      "name": "Better Call Saul",
+      "season": 3,
+      "network": [
+        "Netflix", "AMC"
+      ],
+      "date": "02.04.2018",
+      "genre": ["crime","tragedy"]
+    },
+    {
+      "name": "Game Of Thrones",
+      "season": 1,
+      "network": [
+        "HBO"
+      ],
+      "date": "17.04.2011",
+      "genre": ["drama","fantasy", "tragedy"]
+    },
+    {
+      "name": "Game Of Thrones",
+      "season": 2,
+      "network": [
+        "HBO"
+      ],
+      "date": "01.04.2012",
+      "genre": ["drama","fantasy", "tragedy"]
+    },
+    {
+      "name": "Game Of Thrones",
+      "season": 3,
+      "network": [
+        "HBO"
+      ],
+      "date": "31.03.2013",
+      "genre": ["drama","fantasy", "tragedy"]
+    },
+    {
+      "name": "Game Of Thrones",
+      "season": 4,
+      "network": [
+        "HBO"
+      ],
+      "date": "06.04.2014",
+      "genre": ["drama","fantasy", "tragedy"]
+    },
+    {
+      "name": "Rome",
+      "season": 1,
+      "network": [
+        "HBO"
+      ],
+      "date": "28.08.2005",
+      "genre": ["drama","history"]
+    },
+    {
+      "name": "Rome",
+      "season": 2,
+      "network": [
+        "HBO"
+      ],
+      "date": "14.01.2007",
+      "genre": ["drama","history"]
+    },
+    {
+      "name": "The Witcher",
+      "season": 1,
+      "network": [
+        "Netflix"
+      ],
+      "date": "10.12.2019",
+      "genre": ["drama","fantasy","action"]
+    },
+    {
+      "name": "The Witcher",
+      "season": 2,
+      "network": [
+        "Netflix"
+      ],
+      "date": "10.12.2021",
+      "genre": ["drama","fantasy","action"]
+    },
+    {
+      "name": "The Big Bang Theory",
+      "season": 1,
+      "network": [
+        "CBS"
+      ],
+      "date": "24.09.2007",
+      "genre": ["sitcom"]
+    },
+    {
+      "name": "The Big Bang Theory",
+      "season": 2,
+      "network": [
+        "CBS"
+      ],
+      "date": "22.09.2008",
+      "genre": ["sitcom"]
+    },
+    {
+      "name": "The Big Bang Theory",
+      "season": 3,
+      "network": [
+        "CBS"
+      ],
+      "date": "21.09.2009",
+      "genre": ["sitcom"]
+    },
+    {
+      "name": "Vikings",
+      "season": 1,
+      "network": [
+        "MGM"
+      ],
+      "date": "03.03.2013",
+      "genre": ["drama","history"]
+    },
+    {
+      "name": "Vikings",
+      "season": 2,
+      "network": [
+        "MGM"
+      ],
+      "date": "27.04.2014",
+      "genre": ["drama","history"]
+    },
+    {
+      "name": "Vikings",
+      "season": 3,
+      "network": [
+        "MGM"
+      ],
+      "date": "19.02.2015",
+      "genre": ["drama","history"]
+    },
+    {
+      "name": "How I Met Your Mother",
+      "season": 1,
+      "network": [
+        "CBS"
+      ],
+      "date": "19.09.2005",
+      "genre": ["sitcom"]
+    },
+    {
+      "name": "How I Met Your Mother",
+      "season": 2,
+      "network": [
+        "CBS"
+      ],
+      "date": "18.09.2006",
+      "genre": ["sitcom"]
+    },
+    {
+      "name": "How I Met Your Mother",
+      "season": 3,
+      "network": [
+        "CBS"
+      ],
+      "date": "24.09.2007",
+      "genre": ["sitcom"]
+    },
+    {
+      "name": "Westworld",
+      "season": 1,
+      "network": [
+        "HBO"
+      ],
+      "date": "02.10.2016",
+      "genre": ["drama","western","science fiction"]
+    },
+    {
+      "name": "Westworld",
+      "season": 2,
+      "network": [
+        "HBO"
+      ],
+      "date": "22.04.2018",
+      "genre": ["drama","western","science fiction"]
+    },
+    {
+      "name": "Westworld",
+      "season": 3,
+      "network": [
+        "HBO"
+      ],
+      "date": "15.03.2020",
+      "genre": ["drama","western","science fiction"]
+    },
+    {
+      "name": "Lost",
+      "season": 1,
+      "network": [
+        "ABC"
+      ],
+      "date": "22.09.2004",
+      "genre": ["drama","science fiction"]
+    },
+    {
+      "name": "Lost",
+      "season": 2,
+      "network": [
+        "ABC"
+      ],
+      "date": "21.09.2005",
+      "genre": ["drama","science fiction"]
+    },
+    {
+      "name": "Lost",
+      "season": 3,
+      "network": [
+        "ABC"
+      ],
+      "date": "04.10.2006",
+      "genre": ["drama","science fiction"]
+    }
+  ]
+}
