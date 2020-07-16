@@ -1,27 +1,17 @@
-# MovieTestProject
+О задании
+Вам предстоит создать клиентское веб-приложение реализующее:
+1.	просмотр списка (таблицы) телесериалов;
+2.	возможность фильтрации списка по полям (канал, жанр, год);
+3.	возможность сортировки сериалов в списке по значениям различных полей (название сериала, продолжительность, канал, жанр, год);
+4.	постраничную навигацию по списку с возможностью выбора количества элементов на странице либо иметь “бесконечную” прокрутку.
+Пример интерфейса:
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.1.1.
+![alt text](movieTestTaskScreen.png "Примерный интерфейс для задания")
 
-## Development server
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
-
-## Code scaffolding
-
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+Изображение выше демонстрирует работу главных элементов интерфейса. Соответствие деталям дизайна приветствуется.
+Технические требования:
+1.	front-end должен быть реализован на Angular в виде Single Page Application;
+2.	back-end не обязателен. Предлагается использование статичного JSON файла;
+3.	для хранения информации о треках используйте любое удобное хранилище данных.
+4.	Для вёрстки ожидается использование flex
